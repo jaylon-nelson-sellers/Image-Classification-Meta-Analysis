@@ -1,0 +1,519 @@
+Dataset,,,,,Model,Model Desc,Time Taken,Accuracy,Balanced Accuracy,Precision,Recall,F1,CM
+MNIST,,,,,DummyClassifier,DummyClassifier(),0.002998352,0.1135,0.1,0.1135,0.1135,0.1135,"[[   0  980    0    0    0    0    0    0    0    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [   0 1032    0    0    0    0    0    0    0    0]
+ [   0 1010    0    0    0    0    0    0    0    0]
+ [   0  982    0    0    0    0    0    0    0    0]
+ [   0  892    0    0    0    0    0    0    0    0]
+ [   0  958    0    0    0    0    0    0    0    0]
+ [   0 1028    0    0    0    0    0    0    0    0]
+ [   0  974    0    0    0    0    0    0    0    0]
+ [   0 1009    0    0    0    0    0    0    0    0]]"
+MNIST,,,,,DummyClassifier,DummyClassifier(strategy='uniform'),0.002990007,0.1039,0.104,0.1039,0.1039,0.1039,"[[122 105  89  84  95  85  96 108  97  99]
+ [137 114 111  94 120 107 115 102 128 107]
+ [100  87 107 108 101 107 105  90  98 129]
+ [ 90 124 117  87  97  96  91  93 105 110]
+ [ 98  94 108  90 112  93 104  90 105  88]
+ [ 87  92  98  87  85  92  98 102  82  69]
+ [ 93  93  80 111  83  94  95 102  97 110]
+ [105 104  90 106  91 113 101  96 109 113]
+ [105  93  95  99  88 103  91 106  99  95]
+ [110  98  90 102  80  95 102 108 109 115]]"
+Fashion,,,,,DummyClassifier,DummyClassifier(),0.002994299,0.1,0.1,0.1,0.1,0.1,"[[1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]]"
+Fashion,,,,,DummyClassifier,DummyClassifier(strategy='uniform'),0.002985001,0.1007,0.1007,0.1007,0.1007,0.1007,"[[ 99  96 101  98 101 104 105 108  94  94]
+ [ 93 111  92  96  86  94 119 123 106  80]
+ [ 84 104 104  98  85 116 115  88  88 118]
+ [105 106  87 103 107 106 103 107  96  80]
+ [106 110  83  98 108 106  92  89 111  97]
+ [ 95  97 110 110  97  93  91  89 107 111]
+ [ 98  90 102 103  91 113 103  92 103 105]
+ [104  99 114 114  99  89  91  88  98 104]
+ [ 97  99 106  98  74 112 120  93 100 101]
+ [ 99  96 111  99 101 112  95  88 101  98]]"
+CIFAR10,,,,,DummyClassifier,DummyClassifier(),0.002521276,0.0954,0.1,0.0954,0.0954,0.0954,"[[   0    0    0    0    0    0 1282    0    0    0]
+ [   0    0    0    0    0    0 1261    0    0    0]
+ [   0    0    0    0    0    0 1296    0    0    0]
+ [   0    0    0    0    0    0 1223    0    0    0]
+ [   0    0    0    0    0    0 1249    0    0    0]
+ [   0    0    0    0    0    0 1212    0    0    0]
+ [   0    0    0    0    0    0 1192    0    0    0]
+ [   0    0    0    0    0    0 1277    0    0    0]
+ [   0    0    0    0    0    0 1242    0    0    0]
+ [   0    0    0    0    0    0 1266    0    0    0]]"
+CIFAR10,,,,,DummyClassifier,DummyClassifier(strategy='uniform'),0.00099659,0.1015,0.1015,0.1015,0.1015,0.1015,"[[142 125 134 100 135 141 116 124 138 127]
+ [143 117 140 137 109 110 128 126 112 139]
+ [129 136 143 115 120 134 126 122 129 142]
+ [124 136 102 100 111 122 124 124 145 135]
+ [132 121 112 122 139 121 121 145 113 123]
+ [118 117 126 134 123 129 118  95 135 117]
+ [120 120 115 109 114 122 122 117 121 132]
+ [137 113 123 134 132 130 116 126 129 137]
+ [132 126 130 115 113 125 127 120 129 125]
+ [130 124 127 145 123 123 123 127 122 122]]"
+CIFAR Coarse,,,,,DummyClassifier,DummyClassifier(),0.002995968,0.05,0.05,0.05,0.05,0.05,"[[500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]
+ [500   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0]]"
+CIFAR Coarse,,,,,DummyClassifier,DummyClassifier(strategy='uniform'),0.001993418,0.0521,0.0521,0.0521,0.0521,0.0521,"[[34 28 29 22 25 22 26 20 29 24 16 26 25 25 24 27 24 25 26 23]
+ [21 26 30 22 23 26 29 18 28 30 21 22 26 23 23 22 36 29 17 28]
+ [22 24 23 25 26 34 30 24 26 24 18 31 21 23 23 31 22 26 19 28]
+ [21 18 26 29 21 34 24 14 26 31 21 19 36 23 33 26 27 27 20 24]
+ [21 24 31 27 32 16 19 31 19 23 35 20 20 18 27 37 28 22 21 29]
+ [27 27 16 28 25 28 27 18 26 32 20 25 24 28 24 28 33 24 20 20]
+ [27 34 29 21 35 27 19 24 29 23 22 26 22 25 23 20 25 28 23 18]
+ [24 17 30 28 32 18 22 23 27 27 24 26 21 25 23 27 22 28 24 32]
+ [30 20 24 22 32 25 24 15 24 26 34 26 25 22 22 27 24 29 25 24]
+ [25 17 27 25 24 17 20 31 21 29 27 19 22 27 18 33 26 29 34 29]
+ [34 27 40 16 23 28 15 21 21 26 30 23 18 27 24 34 20 29 19 25]
+ [32 20 19 26 28 25 27 19 27 29 27 25 30 22 18 28 27 31 19 21]
+ [30 35 17 28 24 19 28 37 26 18 19 25 32 29 26 21 25 14 25 22]
+ [23 29 27 28 24 26 23 17 22 26 26 21 23 24 26 24 32 28 19 32]
+ [23 30 28 27 25 29 20 28 23 24 18 21 26 30 20 19 22 25 33 29]
+ [17 22 30 25 24 26 26 26 26 26 26 22 24 28 26 21 25 28 25 27]
+ [23 27 20 25 30 23 22 27 22 27 23 30 23 19 14 33 25 19 32 36]
+ [22 33 15 31 31 16 31 26 24 23 24 26 25 22 29 26 28 25 16 27]
+ [23 20 28 29 27 20 28 29 25 32 26 17 21 28 25 29 26 24 24 19]
+ [26 26 23 29 32 30 31 29 24 17 26 20 18 23 28 22 27 22 19 28]]"
+CIFAR Fine,,,,,DummyClassifier,DummyClassifier(),0.002982855,0.01,0.01,0.01,0.01,0.01,"[[100   0   0 ...   0   0   0]
+ [100   0   0 ...   0   0   0]
+ [100   0   0 ...   0   0   0]
+ ...
+ [100   0   0 ...   0   0   0]
+ [100   0   0 ...   0   0   0]
+ [100   0   0 ...   0   0   0]]"
+CIFAR Fine,,,,,DummyClassifier,DummyClassifier(strategy='uniform'),0.002990246,0.0095,0.0095,0.0095,0.0095,0.0095,"[[1 1 1 ... 2 0 1]
+ [0 1 2 ... 1 0 1]
+ [2 0 1 ... 1 2 4]
+ ...
+ [1 0 3 ... 1 1 1]
+ [0 1 0 ... 1 1 3]
+ [0 0 0 ... 2 2 0]]"
+CIFAR10,0,0,0,0,DummyClassifier,DummyClassifier(),0.002989292,0.1,0.1,0.1,0.1,0.1,"[[1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]
+ [1000    0    0    0    0    0    0    0    0    0]]"
+CIFAR10,0,0,0,0,DummyClassifier,DummyClassifier(strategy='uniform'),0.00199008,0.0988,0.0988,0.0988,0.0988,0.0988,"[[106 104 101  89 107  94 107 110  86  96]
+ [105 100  94  99 101 109  95  96 104  97]
+ [100  97 107  91  81 106 105  97 111 105]
+ [ 92 105  92 111 101 101 101 105 113  79]
+ [104 102 119 102 107  82  89  87  97 111]
+ [ 97  92 111 108  90  79 107  97 107 112]
+ [109 118 106  91 114 102  73  87  96 104]
+ [104 112  98  91  91 106  97  86 117  98]
+ [106  98  97 103  96  93  89 105  95 118]
+ [102 100  88  82  84  94 100 118 108 124]]"
+MNIST,0,0,0,0,LogisticRegression,LogisticRegression(random_state=42),7.979251623,0.9232,0.9221,0.9232,0.9232,0.9232,"[[ 954    0    2    2    2   10    6    2    2    0]
+ [   0 1110    7    2    0    2    3    1   10    0]
+ [   9   12  924   17   10    4   12    8   33    3]
+ [   4    1   18  922    3   25    2   11   18    6]
+ [   1    3    8    3  913    1    8    8    6   31]
+ [   9    5    3   28    9  781   15    8   30    4]
+ [   9    4    9    4    7   19  902    1    3    0]
+ [   2    8   22    7    6    2    0  947    3   31]
+ [   9   12    4   23    8   27    9   11  856   15]
+ [   6    7    2   10   22    8    0   24    7  923]]"
+MNIST,0,0,0,0,DecisionTreeClassifier,DecisionTreeClassifier(random_state=42),20.91111445,0.6456,0.6439,0.6456,0.6456,0.6456,"[[925   1   8   3   2  11  13   4   9   4]
+ [  0 982  28  47   6  27   6  11  28   0]
+ [ 25  15 815  55  20  19  11  21  46   5]
+ [  9   8  31 839   4  61   6  17  20  15]
+ [ 26  36  54  57 275 140  51  43 210  90]
+ [ 20  10  14  36   3 743  28   3  26   9]
+ [ 90   5 126  12  59  79 372   7 185  23]
+ [ 89  12 105 143  10  70  11 460  19 109]
+ [ 12  12  41  51  33  51  16   9 704  45]
+ [ 39  24  47 126  99 114  24  22 173 341]]"
+MNIST,0,0,0,0,RandomForestClassifier,"RandomForestClassifier(n_jobs=-1, random_state=42)",8.805366278,0.9586,0.9585,0.9586,0.9586,0.9586,"[[ 970    0    0    0    0    3    4    1    2    0]
+ [   0 1118    3    3    0    4    3    0    4    0]
+ [   7    0  988    7    2    2    3    7   16    0]
+ [   2    0    7  963    0   20    0    4   13    1]
+ [   2    0    1    1  942    4    9    0   10   13]
+ [   6    0    1   14    0  861    4    1    5    0]
+ [  13    3    0    0    6    9  920    0    7    0]
+ [   6    3   23    8    4    6    0  957    8   13]
+ [   5    0    5   10    4    7    1    2  936    4]
+ [  13    5    2   15   15   14    0    1   13  931]]"
+MNIST,0,0,0,0,ExtraTreesClassifier,"ExtraTreesClassifier(n_jobs=-1, random_state=42)",6.41937685,0.972,0.9719,0.972,0.972,0.972,"[[ 968    0    1    0    0    3    4    1    3    0]
+ [   0 1125    2    3    0    1    3    0    1    0]
+ [   6    0  996    6    2    1    4   12    5    0]
+ [   1    0    6  978    0    8    0    7    6    4]
+ [   1    0    2    0  957    0    5    0    2   15]
+ [   5    0    1    5    0  868    7    1    3    2]
+ [   8    3    0    0    4    3  938    0    2    0]
+ [   2    3   21    2    1    0    0  985    3   11]
+ [   5    0    4    6    4    4    2    6  938    5]
+ [   5    5    2    8    8    5    1    3    5  967]]"
+MNIST,0,0,0,0,KNeighborsClassifier,KNeighborsClassifier(),5.922425747,0.9423,0.9415,0.9423,0.9423,0.9423,"[[ 961    1    2    2    1    6    6    1    0    0]
+ [   0 1128    3    0    0    0    3    0    1    0]
+ [  15   13  951   23    4    0    7    8   10    1]
+ [   0    3    4  961    3   13    0   11   11    4]
+ [   1   10    6    3  922    2    5    4    3   26]
+ [   6    1    2   26    8  818   16    2    6    7]
+ [  11    4    1    0    2    7  931    0    2    0]
+ [   0   21   11    4    7    2    0  953    1   29]
+ [  13    2    8   18   11   28    3    6  878    7]
+ [   6    5    4   11   19    6    0   33    5  920]]"
+MNIST,0,0,0,0,GaussianNB,GaussianNB(),1.401483059,0.1077,0.1046,0.1077,0.1077,0.1077,"[[   0    1  979    0    0    0    0    0    0    0]
+ [   0    0 1135    0    0    0    0    0    0    0]
+ [   0    0 1030    1    0    0    1    0    0    0]
+ [   0    2  996    6    5    0    0    0    0    1]
+ [   0    1  972    0    8    0    0    1    0    0]
+ [   0    0  824    1   60    6    0    0    0    1]
+ [   0    0  945    0    3    7    3    0    0    0]
+ [   0   15  355   66  513    8    0   13    0   58]
+ [   0    1  947    3   17    6    0    0    0    0]
+ [   0   15  688   23  270    2    0    0    0   11]]"
+MNIST,0,0,0,0,LinearSVC,LinearSVC(random_state=42),470.1085737,0.9125,0.9115,0.9125,0.9125,0.9125,"[[ 956    0    3    1    3    6    6    3    1    1]
+ [   0 1113    4    3    0    1    4    2    8    0]
+ [  13   17  892   30    9    5   14   14   35    3]
+ [   6    3   15  917    2   21    6   10   22    8]
+ [   1    4    8    7  914    0    7    4    8   29]
+ [  11    1    2   31    9  781   17    8   26    6]
+ [  10    4    7    2    9   20  904    0    2    0]
+ [   2   12   22    8   10    3    1  937    5   28]
+ [  14   14    9   24   13   37   12   10  828   13]
+ [   7   11    4   16   39   11    0   28   10  883]]"
+MNIST,0,0,0,0,MLPClassifier,MLPClassifier(random_state=42),46.53086162,0.9758,0.9756,0.9758,0.9758,0.9758,"[[ 969    0    0    0    0    1    4    1    5    0]
+ [   0 1125    3    1    0    0    2    1    3    0]
+ [   6    5  997    4    1    0    3    5   10    1]
+ [   0    0    6  991    0    6    1    2    1    3]
+ [   6    1    5    0  950    0    3    3    2   12]
+ [   2    0    0   10    1  870    4    0    3    2]
+ [   5    1    5    0    4    3  937    0    3    0]
+ [   2    4   13    0    2    0    0  998    1    8]
+ [   2    0    3    7    5    3    3    3  943    5]
+ [   3    4    0    3    8    4    0    5    4  978]]"
+MNIST,0,0,0,0,LinearDiscriminantAnalysis,LinearDiscriminantAnalysis(),14.59617805,0.873,0.8717,0.873,0.873,0.873,"[[ 939    0    1    4    2   13   10    1    9    1]
+ [   0 1095    3    3    2    2    4    0   26    0]
+ [  15   30  825   34   21    5   32    9   55    6]
+ [   5    6   25  880    4   27    3   16   29   15]
+ [   0   12    7    0  889    3    7    2   10   52]
+ [   9    7    5   46   13  732   15   10   36   19]
+ [  12    8   11    0   27   29  855    0   16    0]
+ [   2   29   13   10   23    1    0  867    3   80]
+ [   7   26    7   27   20   54   10    6  791   26]
+ [   9    7    1   13   62    6    0   42   12  857]]"
+MNIST,0,0,0,0,QuadraticDiscriminantAnalysis,QuadraticDiscriminantAnalysis(),9.742655993,0.1111,0.1079,0.1111,0.1111,0.1111,"[[   3    0  972    3    2    0    0    0    0    0]
+ [   0    0 1135    0    0    0    0    0    0    0]
+ [   0    0 1029    2    0    0    1    0    0    0]
+ [   1   22  966   19    1    0    0    0    0    1]
+ [  10   13  944    8    5    0    0    2    0    0]
+ [  35   21  759    8   63    5    0    0    0    1]
+ [   3    0  937    0    8    2    8    0    0    0]
+ [   0   58  274  572    1   24    0   27    0   72]
+ [  15    9  919    5   18    7    0    0    0    1]
+ [   0   37  643  295    2   17    0    0    0   15]]"
+MNIST,0,0,0,0,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cuda', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)",17.75730491,0.9616,0.9614,0.9616,0.9616,0.9616,"[[ 969    0    0    0    0    3    0    1    6    1]
+ [   1 1115    4    3    0    2    2    1    7    0]
+ [   5    0  992   11    4    0    0    9    9    2]
+ [   2    0    5  970    0   14    0    8   11    0]
+ [   0    0    2    1  940    1    5    1    5   27]
+ [   4    0    1   12    0  858    3    3    8    3]
+ [  16    2    2    0   10   15  902    0   11    0]
+ [   1    5   22    6    1    1    0  966    8   18]
+ [   4    1    3    2    3    4    2    1  944   10]
+ [   7    5    1    9   10    5    0    5    7  960]]"
+MNIST,0,0,0,0,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cuda', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=10, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)",2.962773323059082,0.8962,0.894,0.8962,0.8962,0.8962,"[[ 958    0    1    1    1    2    3    1   12    1]
+ [   1 1074   15   10    1    1    6    3   24    0]
+ [  16    4  910   21   16    1    4   15   39    6]
+ [   7    1   25  909    2    5    4   15   29   13]
+ [   2    4    3    4  867    3    8    5   18   68]
+ [  18    7    5   74   14  657   21   14   47   35]
+ [   9    1    1    0   17   12  880    0   38    0]
+ [   0    5   30    4    6    1    0  932   12   38]
+ [   8    8   14   13    9    8    8    8  873   25]
+ [   9    4    3   24   31    8    0   16   12  902]]"
+MNIST,0,0,0,0,XGBRFClassifier,"XGBRFClassifier(base_score=None, booster=None, callbacks=None,
+                colsample_bylevel=None, colsample_bytree=None, device='cuda',
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=None,
+                grow_policy=None, importance_type=None,
+                interaction_constraints=None, learning_rate=0.1, max_bin=None,
+                max_cat_threshold=None, max_cat_to_onehot=None,
+                max_delta_step=None, max_depth=None, max_leaves=None,
+                min_child_weight=None, missing=nan, monotone_constraints=None,
+                multi_strategy=None, n_estimators=10, n_jobs=-1,
+                num_parallel_tree=None, objective='multi:softprob',
+                random_state=None, ...)",3.7391724586486816,0.8829,0.8808,0.8829,0.8829,0.8829,"[[ 960    1    0    0    1    2    4    1   11    0]
+ [   1 1089    4   10    1    2    7    0   21    0]
+ [  27   11  861   35   18    3    8   11   57    1]
+ [  10    1   18  903    5   10    4   12   33   14]
+ [   3    4    3    7  897    3    5    2   18   40]
+ [  21    5    5  101   18  644   23   11   41   23]
+ [  16    5    5    1   16   15  869    0   31    0]
+ [   6    7    9   36   13    3    0  873   17   64]
+ [   8    7    9   23   12   10    6    5  871   23]
+ [  11    5    8   31   45   13    0   19   15  862]]"
+MNIST,0,0,0,0,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cuda', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=25, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)",5.277438640594482,0.9246,0.9238,0.9246,0.9246,0.9246,"[[ 964    0    0    1    0    4    2    1    7    1]
+ [   1 1100    8    2    0    6    6    2   10    0]
+ [  13    0  943   16   13    1    8   12   22    4]
+ [   7    1   18  917    0   22    2   12   23    8]
+ [   1    1    2    1  897    9    7    1   13   50]
+ [  14    1    2   29    7  790   10    6   19   14]
+ [  12    1    1    0   13   24  888    0   19    0]
+ [   1    7   33    3    5    4    0  934   12   29]
+ [   6    5    7   10    5   13    6    4  897   21]
+ [  11    7    2   15   25   16    1    8    8  916]]"
+MNIST,0,0,0,0,XGBRFClassifier,"XGBRFClassifier(base_score=None, booster=None, callbacks=None,
+                colsample_bylevel=None, colsample_bytree=None, device='cuda',
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=None,
+                grow_policy=None, importance_type=None,
+                interaction_constraints=None, learning_rate=0.1, max_bin=None,
+                max_cat_threshold=None, max_cat_to_onehot=None,
+                max_delta_step=None, max_depth=None, max_leaves=None,
+                min_child_weight=None, missing=nan, monotone_constraints=None,
+                multi_strategy=None, n_estimators=25, n_jobs=-1,
+                num_parallel_tree=None, objective='multi:softprob',
+                random_state=None, ...)",7.677631139755249,0.8866,0.8844,0.8866,0.8866,0.8866,"[[ 961    1    0    0    1    4    3    1    9    0]
+ [   1 1098    5   10    1    2    8    0   10    0]
+ [  25   10  881   28   13    2   11    7   54    1]
+ [  10    0   24  908    4    7    4   11   26   16]
+ [   2    2    2    6  906    3    5    3   16   37]
+ [  19    6    2   98   18  656   20   11   37   25]
+ [  21    0    6    1   22   15  859    0   34    0]
+ [   6   11   15   31   10    5    0  861   19   70]
+ [   9    7    8   21   17   11    6    6  869   20]
+ [   8    5   13   35   38    9    0   15   19  867]]"
+MNIST,0,0,0,0,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cuda', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=50, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)",9.5982985496521,0.9461,0.9458,0.9461,0.9461,0.9461,"[[ 968    0    0    0    0    2    3    1    6    0]
+ [   1 1107    6    3    0    2    5    2    9    0]
+ [  10    0  969   11    8    1    4   11   14    4]
+ [   2    0   15  942    0   20    2    7   15    7]
+ [   1    0    3    1  912    4    7    1   10   43]
+ [   8    0    2   17    0  837    6    4   14    4]
+ [  13    2    1    0   10   10  910    0   12    0]
+ [   1    3   27    6    4    3    0  951    9   24]
+ [   6    2    6    6    2    8    5    3  921   15]
+ [  11    8    2   11   16    8    0    4    5  944]]"
+MNIST,0,0,0,0,XGBRFClassifier,"XGBRFClassifier(base_score=None, booster=None, callbacks=None,
+                colsample_bylevel=None, colsample_bytree=None, device='cuda',
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=None,
+                grow_policy=None, importance_type=None,
+                interaction_constraints=None, learning_rate=0.1, max_bin=None,
+                max_cat_threshold=None, max_cat_to_onehot=None,
+                max_delta_step=None, max_depth=None, max_leaves=None,
+                min_child_weight=None, missing=nan, monotone_constraints=None,
+                multi_strategy=None, n_estimators=50, n_jobs=-1,
+                num_parallel_tree=None, objective='multi:softprob',
+                random_state=None, ...)",14.701619625091553,0.89,0.8881,0.89,0.89,0.89,"[[ 958    2    1    0    1    2    3    2   11    0]
+ [   1 1099    5   10    1    0    7    0   11    1]
+ [  30   10  870   28   16    1   12    6   58    1]
+ [  11    0   18  909    3   10    4   12   28   15]
+ [   3    2    3    7  905    4    5    2   14   37]
+ [  18    6    2   79   16  675   24    9   37   26]
+ [  19    4    5    1   19   14  864    0   32    0]
+ [   4   10   13   28    9    3    2  876   20   63]
+ [   5    8    8   17   17    9    7    6  875   22]
+ [  10    5   11   23   41   10    9   13   18  869]]"
+MNIST,0,0,0,0,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cuda', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=-1,
+              num_parallel_tree=None, objective='multi:softprob', ...)",18.1434965133667,0.9616,0.9614,0.9616,0.9616,0.9616,"[[ 969    0    0    0    0    3    0    1    6    1]
+ [   1 1115    4    3    0    2    2    1    7    0]
+ [   5    0  992   11    4    0    0    9    9    2]
+ [   2    0    5  970    0   14    0    8   11    0]
+ [   0    0    2    1  940    1    5    1    5   27]
+ [   4    0    1   12    0  858    3    3    8    3]
+ [  16    2    2    0   10   15  902    0   11    0]
+ [   1    5   22    6    1    1    0  966    8   18]
+ [   4    1    3    2    3    4    2    1  944   10]
+ [   7    5    1    9   10    5    0    5    7  960]]"
+MNIST,0,0,0,0,XGBRFClassifier,"XGBRFClassifier(base_score=None, booster=None, callbacks=None,
+                colsample_bylevel=None, colsample_bytree=None, device='cuda',
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=None,
+                grow_policy=None, importance_type=None,
+                interaction_constraints=None, learning_rate=0.1, max_bin=None,
+                max_cat_threshold=None, max_cat_to_onehot=None,
+                max_delta_step=None, max_depth=None, max_leaves=None,
+                min_child_weight=None, missing=nan, monotone_constraints=None,
+                multi_strategy=None, n_estimators=100, n_jobs=-1,
+                num_parallel_tree=None, objective='multi:softprob',
+                random_state=None, ...)",30.275941133499146,0.8912,0.8892,0.8912,0.8912,0.8912,"[[ 959    1    0    0    1    3    4    1   11    0]
+ [   1 1099    4   10    1    1    7    0   12    0]
+ [  27   13  874   27   15    1   10    6   58    1]
+ [  11    2   20  909    3    6    4   12   29   14]
+ [   2    1    3    3  912    4    5    2   16   34]
+ [  18    5    3   88   16  670   22   10   34   26]
+ [  16    4    7    1   21   14  863    0   32    0]
+ [   4    8   16   26   10    7    0  874   19   64]
+ [   6    6    8   18   14    8    7    6  880   21]
+ [   7    4   11   21   43   13    0   17   21  872]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(10, 10),Dropout:0)",102.27698063850403,0.9322,0.9312,0.9322,0.9322,0.9322,"[[ 952    0    4    2    2    8    4    6    2    0]
+ [   0 1109    3    3    0    1    1    3   15    0]
+ [  12    4  948   24   11    1    7   10   13    2]
+ [   5    3   15  937    1    6    0   12   26    5]
+ [   3    1   10    3  912    2    7   10    4   30]
+ [   8    3    0   51    3  787    7    5   19    9]
+ [  15    4    3    0    7   16  909    0    4    0]
+ [   2    9   17    6    4    3    0  961    0   26]
+ [   3   12    7   26    7   14    9    6  878   12]
+ [   9    8    0   12   19    4    1   19    8  929]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(25, 25),Dropout:0)",68.75352954864502,0.9593,0.9589,0.9593,0.9593,0.9593,"[[ 966    0    3    0    1    4    0    1    2    3]
+ [   2 1118    5    2    0    1    1    1    5    0]
+ [   6    5  985   11    3    2    4    6    9    1]
+ [   0    1    9  971    2    9    1    4    8    5]
+ [   2    1    3    1  943    3    8    5    3   13]
+ [   2    2    1   18    1  841    9    2   12    4]
+ [   8    3    6    1    5   11  920    0    4    0]
+ [   2    9    8    8    5    0    0  973    5   18]
+ [   5    4    5    9    7   10    3    3  923    5]
+ [   2    4    0   12   18    6    1    6    7  953]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(50, 50),Dropout:0)",127.20510411262512,0.9714,0.971,0.9714,0.9714,0.9714,"[[ 964    0    0    1    2    1    3    4    3    2]
+ [   0 1125    2    1    0    2    1    1    3    0]
+ [   4    3  998    7    4    0    1    9    6    0]
+ [   0    0    9  973    0    9    0    5    9    5]
+ [   2    1    5    0  955    1    1    3    1   13]
+ [   3    1    0   23    1  855    3    1    4    1]
+ [   6    2    0    1    8    9  930    0    2    0]
+ [   1    7   10    2    4    0    0  995    2    7]
+ [   3    2    3    5    5    7    1    6  938    4]
+ [   0    2    0    4    8    4    1    5    4  981]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(100, 100),Dropout:0)",127.84324645996094,0.9776,0.9774,0.9776,0.9776,0.9776,"[[ 971    1    0    0    1    2    2    1    2    0]
+ [   0 1125    1    2    0    1    2    1    3    0]
+ [   4    5 1002    2    2    1    1    5    9    1]
+ [   0    0    6  989    0    2    0    3    5    5]
+ [   1    2    9    2  955    0    2    4    1    6]
+ [   2    0    1    9    2  868    3    2    4    1]
+ [   5    3    3    1    6    6  929    0    5    0]
+ [   1    3    9    2    2    0    0 1001    3    7]
+ [   3    1    2    3    2    6    3    4  947    3]
+ [   1    2    1    8    5    1    0    1    1  989]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(10, 10, 10),Dropout:0)",107.14228248596191,0.9336,0.9324,0.9336,0.9336,0.9336,"[[ 953    0    4    2    3    5    6    3    2    2]
+ [   0 1116    2    4    0    5    1    3    3    1]
+ [  14   10  940   27    5    0    5   15   16    0]
+ [   0    0   14  942    2   14    2   16   16    4]
+ [   3    7    7    0  909    2   13    7    4   30]
+ [   7    9    0   42    4  775   11    8   28    8]
+ [   7    4    2    2   13   12  913    0    5    0]
+ [   2    7   13    9    6    1    0  969    0   21]
+ [   9   13    5   22    7   14    6    6  881   11]
+ [   7    3    1   12   28    4    0   11    5  938]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(25, 25, 25),Dropout:0)",144.74429607391357,0.9576,0.957,0.9576,0.9576,0.9576,"[[ 950    0    4    3    1   11    3    1    4    3]
+ [   0 1122    3    3    0    1    1    1    4    0]
+ [   2   13  982    6    2    2    4   12    9    0]
+ [   0    3    5  969    0   10    1    9    8    5]
+ [   1    6    5    1  928    3    6    8    0   24]
+ [   2    3    1   23    3  839   10    2    6    3]
+ [   7    6    3    3    5    9  917    1    7    0]
+ [   0   12   10    7    4    3    0  978    2   12]
+ [   3    2    4    7    5   12    3    4  926    8]
+ [   3    6    0   11   11    2    1    8    2  965]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(50, 50, 50),Dropout:0)",163.08028388023376,0.9721,0.9719,0.9721,0.9721,0.9721,"[[ 962    1    0    3    2    2    1    3    4    2]
+ [   0 1122    2    4    0    2    1    0    4    0]
+ [   5    1  992    5    4    0    3    9   13    0]
+ [   0    0    4  981    1    4    0    9    5    6]
+ [   1    0    4    3  953    1    4    2    2   12]
+ [   2    0    0   17    1  859    4    2    3    4]
+ [   6    2    2    0    3    3  939    0    3    0]
+ [   0    4    7    4    3    1    1  997    1   10]
+ [   3    4    2    7    5    7    0    4  939    3]
+ [   1    3    0    6   10    4    0    5    3  977]]"
+MNIST,0,0,0,0,EasyNeuralNet,"EasyNeuralNet Layers:(100, 100, 100),Dropout:0)",139.088050365448,0.9771,0.9768,0.9771,0.9771,0.9771,"[[ 969    1    1    2    1    1    1    3    1    0]
+ [   0 1124    1    2    0    2    2    0    4    0]
+ [   0    3 1003    2    3    0    4    7    9    1]
+ [   1    0    2  995    0    2    1    3    5    1]
+ [   3    0    2    2  953    2    5    2    0   13]
+ [   2    0    0   17    2  860    4    1    5    1]
+ [   5    3    2    1    4    4  937    0    2    0]
+ [   3    3    5    2    1    1    0  998    3   12]
+ [   1    2    2    1    4    6    1    6  951    0]
+ [   2    3    0    6    4    3    0    7    3  981]]"
