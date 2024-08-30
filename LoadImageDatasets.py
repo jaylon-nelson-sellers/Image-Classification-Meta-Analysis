@@ -3,6 +3,38 @@ import numpy as np
 import pandas as pd
 from sklearn import preprocessing
 from sklearn import model_selection
+def load_dataset(dataset_id:str,to_3d:bool=False):
+    if dataset_id == "mnist":
+        dataset = load_mnist(debug=False)
+        test_id = "mnist"
+        if to_3d:
+            x_train_scaled,x_test_scaled,y_train,y_test = dataset
+            return combine_and_reshape_images(x_train_scaled,x_test_scaled,y_train,y_test,1,28,28)
+    if dataset_id == "fashion":
+        dataset = load_fashion(debug=False)
+        test_id = "Fashion"
+        if to_3d:
+            x_train_scaled,x_test_scaled,y_train,y_test = dataset
+            return combine_and_reshape_images(x_train_scaled,x_test_scaled,y_train,y_test,1,28,28)
+    if dataset_id == "cifar10":
+        dataset = load_cifar_10()
+        test_id = "CIFAR10"
+        if to_3d:
+            x_train_scaled,x_test_scaled,y_train,y_test = dataset
+            return combine_and_reshape_images(x_train_scaled,x_test_scaled,y_train,y_test,3,32,32)
+    if dataset_id == "coarse":
+        dataset = load_cifar_100_coarse()
+        test_id = "CIFAR Coarse"
+        if to_3d:
+            x_train_scaled,x_test_scaled,y_train,y_test = dataset
+            return combine_and_reshape_images(x_train_scaled,x_test_scaled,y_train,y_test,3,32,32)
+    if dataset_id == "fine":
+        dataset = load_cifar_100_fine()
+        test_id = "CIFAR Fine"
+        if to_3d:
+            x_train_scaled,x_test_scaled,y_train,y_test = dataset
+            return combine_and_reshape_images(x_train_scaled,x_test_scaled,y_train,y_test,3,32,32)
+    return dataset
 def load_mnist(debug:bool=False):
     #get train data
     train = pd.read_csv('Datasets/MNIST/mnist_train.csv')
@@ -97,3 +129,10 @@ def scale_data(data: pd.DataFrame,):
     scaled_data = pd.DataFrame(min_max_scaler.fit_transform(data.values))
     
     return scaled_data
+
+def combine_and_reshape_images(data_train: pd.DataFrame, data_test: pd.DataFrame, label_train: np.ndarray, label_test: np.ndarray, channels: int, x: int, y: int):
+    """Combines data and labels, reshapes to [samples, channels, x, y]."""
+    data_train = data_train.values.reshape(-1, channels, x, y)
+    data_test = data_test.values.reshape(-1, channels, x, y)
+    return data_train, data_test, label_train, label_test
+

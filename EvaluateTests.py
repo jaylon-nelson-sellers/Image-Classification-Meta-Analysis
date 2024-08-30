@@ -1,4 +1,5 @@
 import time
+from tkinter import Y
 import torch
 import pandas as pd
 import numpy as np
@@ -35,18 +36,16 @@ def convert_data_to_tensors(X_train, X_test, y_train,image_bool=False):
     if isinstance(X_train, np.ndarray) and isinstance(X_test, np.ndarray) and isinstance(y_train, np.ndarray):
         X_train_tensor = torch.tensor(X_train, dtype=torch.float32, device=device)
         X_test_tensor = torch.tensor(X_test, dtype=torch.float32, device=device)
-        if image_bool:
-            y_train_tensor = torch.tensor(y_train, dtype=torch.float32, device=device)
-        else:
-            y_train_tensor = torch.tensor(y_train, dtype=torch.float32, device=device)
+        y_train_tensor = torch.tensor(y_train, dtype=torch.long, device=device)
         return X_train_tensor, X_test_tensor, y_train_tensor
     else:
         raise TypeError("Input data should be either NumPy arrays or pandas DataFrames.")
 
 def evaluate_image_test(model,dataset_data,dl,tensor_check=False,round_digits=4):
     X_train, X_test, y_train, y_test = dataset_data
+    print(y_train)
     if tensor_check:
-        X_train, X_test, y_traiN =convert_data_to_tensors(X_train, X_test, y_train,image_bool=not True)
+        X_train, X_test, y_train =convert_data_to_tensors(X_train, X_test, y_train,image_bool=not True)
     start = time.time()
     model.fit(X_train, y_train)
     predictions = model.predict(X_test)
